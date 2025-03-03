@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-g++ -o main main.cpp -lSDL2main -lSDL2
+g++ -o main main.cpp game.cpp -lSDL2 -lSDL2main -lSDL2_image
