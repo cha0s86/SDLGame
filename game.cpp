@@ -58,16 +58,16 @@ void Game::handleEvents() {
 		case SDL_KEYDOWN:
 			switch (event.key.keysym.sym) {
 				case SDLK_w:
-					dstRect.y -= 6;
+					dstRect.y -= 4;
 					break;
 				case SDLK_a:
-					dstRect.x -= 6;
+					dstRect.x -= 4;
 					break;
 				case SDLK_s:
-					dstRect.y += 6;
+					dstRect.y += 4;
 					break;
 				case SDLK_d:
-					dstRect.x += 6;
+					dstRect.x += 4;
 					break;
 			}
 		default:
